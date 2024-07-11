@@ -28,6 +28,7 @@ Contents Taught-
 6.Mistral Ai
 
 Resources-
+
 1.https://colab.research.google.com/drive/1JMpY3INJzRjsYQKHmc-8zyy3r1TDBya4?usp=sharing#scrollTo=eOdsIhI0UPj1
 
 2.https://docs.crewai.com/core-concepts/Agents/#what-is-an-agent
