@@ -11,10 +11,15 @@ Contains the Task of Training and Gen AI Internship -
 
 Contents Taught-
 1.Ollama
+
 2.Crew AI
+
 3.Groq AI
+
 4.LLM analysis
+
 5.Agentops
+
 6.Mistral Ai
 
 Resources-
