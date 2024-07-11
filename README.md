@@ -1,4 +1,8 @@
 # Agie-Gen-AI-
+
+![image](https://github.com/t-abs/Agie-Gen-AI-/assets/137747688/a1541b53-9017-48ae-a89e-1bbbe4a5bd44)
+
+
 Contains the Task of Training and Gen AI Internship -
 
 3 weeks-
@@ -10,6 +14,7 @@ Contains the Task of Training and Gen AI Internship -
 3.10 July - 17 July
 
 Contents Taught-
+
 1.Ollama
 
 2.Crew AI
