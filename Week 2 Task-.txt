@@ -1,0 +1,50 @@
+Week 2 Task-
+
+Assignment 2: Agent to Grade Automated FAQ Answering Assignment
+Completion requirements
+Opened: Thursday, 4 July 2024, 12:00 AM
+Due: Thursday, 11 July 2024, 12:00 AM
+Assignment: Agentic Workflow of Crew AI
+Objective:
+Develop an Agentic Workflow within Crew AI for grading student submissions of Assignment 2 of Week1. This involves creating and submitting working Python code that leverages the Grok API for LLM interactions.
+
+Instructions:
+Develop Agentic Workflow:
+
+Create a workflow using Crew AI that automates the grading process for student submissions.
+Ensure that the workflow interacts with the Grok API for Large Language Model (LLM) interactions.
+Your workflow should be able to evaluate and grade student submissions accurately.
+Python Code Submission:
+
+Write and submit the working Python code that implements the Agentic Workflow.
+You can submit your Python code or a Google Colab notebook.
+Your code should demonstrate clear, logical steps and make use of the Grok API efficiently.
+ 
+Deliverables:
+A detailed document explaining the Agentic Workflow for Crew AI.
+The Python code or Google Colab notebook implementing the workflow.
+Documentation and comments within the code.
+Test cases and results.
+Evaluation Criteria:
+Accuracy and functionality of the Agentic Workflow.
+Clarity and effectiveness of the Python code.
+Last Week Assignment (Automated FAQ Answering)
+Goal: 
+
+Create a prompt that answers Frequently Asked Questions (FAQs) for a product of your choice.
+
+Task: 
+
+First, have the model generate examples of FAQs and corresponding answers based on a brief description of the product (maybe choose an item that you use in your everyday life). Then, use these examples as context for the model to learn from when answering a novel question about the product (you can write this novel question yourself).
+
+
+
+Assignment 3: Coding on Crew AI
+Completion requirements
+Opened: Sunday, 7 July 2024, 12:00 AM
+Due: Sunday, 14 July 2024, 12:00 AM
+Part 1:
+Create an agent in CrewAI with the role of 'Data Analyst'. The agent should have a goal of 'analyzing sales data', a backstory of 'an experienced data analyst with a focus on sales trends', and a tool for 'data visualization'. Include the code snippet to define this agent.
+
+
+
