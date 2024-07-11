@@ -1,4 +1,60 @@
-Week 2 Task-
+
+Assignment 1: Customizing a Model and Importing a GGUF Model with Ollama
+Completion requirements
+Opened: Tuesday, 2 July 2024, 12:00 AM
+Due: Tuesday, 9 July 2024, 12:00 AM
+Objective:
+To gain hands-on experience in customizing models and importing GGUF models using the Ollama framework for running large language models (LLMs) locally.
+
+Assignment Tasks:
+Task 1: Customize a Model
+Pull the Llama 3 Model:
+
+Ensure the Llama 3 model is pulled from the Ollama library 
+ollama pull llama3
+Create a Modelfile:
+
+Create a file named Modelfile with the following content to customize the Llama 3 model:
+FROM llama3
+
+PARAMETER temperature 0.7
+
+SYSTEM """
+You are a knowledgeable assistant that provides clear and concise answers.
+"""
+Create and Run the Customized Model:
+
+Create the customized model:
+ollama create custom_llama3 -f ./Modelfile
+Run the customized model:
+
+ollama run custom_llama3
+Test the Customized Model:
+
+Interact with the customized model by asking it various questions and document the responses.
+Compare the behavior and responses of the customized model to the default Llama 3 model.
+ 
+ 
+ 
+Task 2: Import and Use a GGUF Model
+Download a GGUF Model File:
+
+Obtain a GGUF model file (e.g., vicuna-33b.Q4_0.gguf). Make sure the file is saved locally on your system.
+Create a Modelfile for the GGUF Model:
+
+Create a file named Modelfile with the following content to import the GGUF model:
+FROM ./path/to/your/vicuna-33b.Q4_0.gguf
+Create and Run the Imported Model:
+
+Create the model using the Modelfile:
+ollama create imported_vicuna -f Modelfile
+Run the imported model:
+
+ollama run imported_vicuna
+Test the Imported Model:
+
+Interact with the imported model by asking it various questions and document the responses.
+Compare the performance and responses of the imported GGUF model to the other models you have worked with.
 
 Assignment 2: Agent to Grade Automated FAQ Answering Assignment
 Completion requirements
@@ -36,7 +92,6 @@ Create a prompt that answers Frequently Asked Questions (FAQs) for a product of 
 Task: 
 
 First, have the model generate examples of FAQs and corresponding answers based on a brief description of the product (maybe choose an item that you use in your everyday life). Then, use these examples as context for the model to learn from when answering a novel question about the product (you can write this novel question yourself).
-
 
 
 Assignment 3: Coding on Crew AI
