@@ -1,0 +1,54 @@
+Document(Assignment 3)
+Final Analysis Batch wise(AGIE )-
+
+1.Morning Batch:
+Total Duration: 10141 minutes
+Average Duration: 14.01 minutes
+Standard Deviation: 13.08 minutes
+Percentage of Users Above Average Duration: 37.43%
+
+2.Afternoon Batch:
+Total Duration: 4783 minutes
+Average Duration: 21.64 minutes
+Standard Deviation: 23.23 minutes
+Percentage of Users Above Average Duration: 25.79%
+
+3.Evening Batch:
+Total Duration: 10022 minutes
+Average Duration: 17.31 minutes
+Standard Deviation: 17.73 minutes
+Percentage of Users Above Average Duration: 29.53%
+
+4.Detailed Comparison:
+
+Total Duration:
+The Morning batch has the longest total duration of attendance (10141 minutes), followed by the Evening batch (10022 minutes), and the Afternoon batch has the shortest (4783 minutes).
+Average Duration:
+
+The Afternoon batch has the highest average duration (21.64 minutes), followed by the Evening batch (17.31 minutes), and the Morning batch has the lowest (14.01 minutes).
+
+5.Standard Deviation:
+
+The Afternoon batch shows the highest variability in attendance duration (23.23 minutes), followed by the Evening batch (17.73 minutes), and the Morning batch has the lowest variability (13.08 minutes).
+
+6.Percentage Above Average Duration:
+
+The Morning batch has the highest percentage of users attending more than the average duration (37.43%), indicating a more spread out distribution around the average.
+The Evening batch follows with 29.53%, and the Afternoon batch has the lowest at 25.79%.
+Insights:
+Attendance Patterns: The Morning and Evening batches show similar total durations, but the distribution of durations (standard deviation) is narrower in the Morning batch compared to the Evening batch.
+
+Duration Preferences: The Afternoon batch has the highest average duration, suggesting potentially different scheduling or engagement patterns compared to the Morning and Evening batches.
+
+Variability: The Afternoon batch exhibits the highest variability in attendance duration, which may indicate less consistent participation patterns compared to the other batches.
+
+Conclusion:
+This detailed comparison provides insights into how attendance duration varies across different batches throughout the day. The metrics highlight differences in average duration, variability, and distribution around the average, which can inform further analysis or decision-making related to scheduling, engagement strategies, or resource allocation.
+
+
+
+
+
+
+
+
