@@ -1,0 +1,68 @@
+Week 1
+Assignment 1: Personalized Article Summaries
+Completion requirements
+Opened: Monday, 24 June 2024, 12:00 AM
+Due: Monday, 1 July 2024, 12:00 AM
+Goal: 
+
+Develop a prompt that can summarize news articles into statements of a specified length and focus on information specific to your interests.
+
+Summarize a few news articles yourself. Your summaries should be the length, tone, and writing style that you prefer. Make sure to discuss the information that you personally find interesting from the articles. Then, use your example summaries for in-context learning with a language model like OpenAI's ChatGPT, Google's Bard, or Anthropic's Claude. Now, the language model should learn from the context how to create news summaries that fit your length, tone, style, and content preferences.
+
+
+Assignment 2: Automated FAQ Answering
+Completion requirements
+Opened: Monday, 24 June 2024, 12:00 AM
+Due: Monday, 1 July 2024, 12:00 AM
+Goal: 
+
+Create a prompt that answers Frequently Asked Questions (FAQs) for a product of your choice.
+
+Task: 
+
+First, have the model generate examples of FAQs and corresponding answers based on a brief description of the product (maybe choose an item that you use in your everyday life). Then, use these examples as context for the model to learn from when answering a novel question about the product (you can write this novel question yourself).
+
+
+
+Assignment 3: Data Analysis using Prompt Engineering and LLM
+Completion requirements
+Opened: Sunday, 30 June 2024, 12:00 AM
+Due: Tuesday, 2 July 2024, 11:59 PM
+Objective:
+The objective of this assignment is to utilize prompt engineering and ChatGPT-4 or any other LLM to analyze attendance data from multiple training sessions. You have been given raw CSV files containing attendance data for morning, afternoon, and evening batches for 28th June, 2024. Your task is to perform various analyses and generate reports using ChatGPT-4 or any other LLM.
+
+Files Provided:
+Morning.csv
+Afternoon.csv
+Evening.csv
+Instructions:
+Data Preparation:
+
+Load the provided CSV files.
+Ensure you understand the structure and contents of the data.
+Data Grouping and Summarization:
+
+Group the data by 'Name (Original Name)' and calculate the total duration for each participant.
+Add a date attribute to each record.
+Analysis Tasks:
+
+Total Duration Calculation: Calculate the total duration of attendance for each batch (morning, afternoon, evening).
+Average Duration Calculation: Calculate the average duration of attendance for each batch.
+Standard Deviation Calculation: Calculate the standard deviation of attendance duration for each batch.
+Percentage Calculation: Calculate the percentage of users who attended more than the average duration for each batch.
+Duration Buckets Distribution: Plot a histogram showing the number of users in different duration buckets (e.g., 0-10 mins, 10-20 mins, etc.) for each batch.
+Comparative Analysis: Compare the total duration, average duration, standard deviation, and percentage of users attending more than the average duration across all three batches.
+ 
+Report Generation:
+
+Generate detailed summary reports for each batch (morning, afternoon, evening).
+Generate a combined summary report comparing all three batches.
+Prompt Engineering:
+
+Use prompt engineering techniques to interact with ChatGPT-4 or any other LLM for performing the above analyses.
+Document the prompts used and the responses from ChatGPT-4 or any other LLM.
+Submission:
+Submit the following:
+Python scripts used for data processing and analysis.
+Generated summary reports for each batch and the combined report.
+A document containing the prompts used, responses from ChatGPT-4 or any other LLM.
