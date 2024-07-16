@@ -1,0 +1,42 @@
+Week 3 Task-
+
+1.Objective:
+In last lecture we cloned a git repository(https://github.com/gita/gita.git) and imported the data to mongodb. You have to  fetch the data from mongodb collection translation by one of the authorName which is in Language English say "Sri Shankaracharya" from description column., index them in a Vector Store, and query the Vector Store using the Llama Index framework in Google Colab.
+
+Steps:
+Set Up MongoDB Cloud:
+
+Ensure your MongoDB Cloud acccount is set up and contains the necessary data in the translation collection.
+Access Google Colab:
+
+Open Google Colab.
+Connect to MongoDB cloud from Colab:
+
+Install pymongo in Colab.
+Use the connection string from MongoDB cloud to connect.
+Fetch Translations:
+
+Query the translation collection for documents where authorName is "Sri Shankaracharya" and language is "English".
+Retrieve and combine the description fields into a single string.
+Index Content in Vector Store:
+
+Install the Llama Index framework in Colab.
+Initialize a Vector Store and add the combined translations.
+Query the Vector Store:
+
+Write a query script using Llama Index to search the indexed content.
+By completing this assignment, you will learn how to interact with MongoDB, process and combine data, and use the Llama Index framework for indexing and querying content.
+
+
+Assignment 2: Exploring Embeddings and Function Calling with Mistral AI
+Completion requirements
+Opened: Sunday, 14 July 2024, 12:00 AM
+Due: Friday, 19 July 2024, 12:00 AM
+Task 1: Embeddings In this task, you will  generate and utilize text embeddings using the Mistral AI Embeddings API. You will create embeddings for given text inputs and measure their distances to understand their semantic similarities. Additionally, you will explore batch processing and visualization techniques such as t-SNE for dimensionality reduction. Begin by setting up the Mistral client in Google Colab, then follow the provided code examples to generate embeddings and visualize them. This will help you understand the practical applications of embeddings in clustering, classification, and retrieval tasks.
+
+Refer this as helper. https://docs.mistral.ai/capabilities/embeddings/
+
+Task 2: Function Calling This task involves integrating Mistral models with external tools through function calling. You will write functions to track payment status and dates, then use Mistral models to call these functions based on user queries. Follow the steps to define the functions, specify their JSON schema, and integrate them with the Mistral models. Run the provided code in Google Colab to see how the model generates function arguments, executes the functions, and produces a final answer. This exercise will demonstrate how function calling can enhance the capabilities of GenAI models by connecting them to external data and tools.
+
+Refer this as helper:  https://docs.mistral.ai/capabilities/function_calling/
+
