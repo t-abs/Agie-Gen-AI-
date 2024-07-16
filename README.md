@@ -61,3 +61,13 @@ Resources-
 
 16.https://colab.research.google.com/drive/1jdG_ZF3b_55z3pLZS2K7xL3zdwxN5FNN?usp=sharing
 
+17.https://colab.research.google.com/drive/10PElg3V2GpdjQKO0Z8_H9ypDwdRqoZ8X?usp=sharing
+
+18.https://docs.mistral.ai/capabilities/function_calling/
+
+19.https://docs.mistral.ai/capabilities/embeddings/
+
+20.https://docs.llamaindex.ai/en/stable/module_guides/
+
+21.https://python.langchain.com/v0.2/docs/introduction/
+
