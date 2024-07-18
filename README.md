@@ -27,6 +27,10 @@ Contents Taught-
 
 6.Mistral Ai
 
+7.Langchain
+
+8.Chatbot
+
 Resources-
 
 1.https://colab.research.google.com/drive/1JMpY3INJzRjsYQKHmc-8zyy3r1TDBya4?usp=sharing#scrollTo=eOdsIhI0UPj1
